@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>"What We Do in the Shadows" Episode Generator</title>
+    <link rel="shortcut icon" type="image/png" href="static/images/favicon-16x16.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body class="vampire_container">
+    <div>
+        <h1>What We Do in the Shadows</h1>
+        <h2>Episode Generator</h2>
+    </div>
+
+    <div class="generator">
+        {% autoescape false %}
+        {{ myfunction() }}
+        {% endautoescape %}
+    </div>
+
+    <div class="button-border">
+        <button type="button" class="refresh_button" onclick="refreshPage()">Click here for a new episode!</button>
+            <script>
+                function refreshPage(){
+                    window.location.reload();
+                }
+            </script>
+    </div>
+
+    <div align="center">
+       <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/72T5smavl9ONfOwI0gHf1A?utm_source=generator&theme=0" width="25%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    </div>
+
+    <footer class="footer">
+        <p>In case it needs to be stated, I make no claim to, nor have any association with, <i>What We Do in the Shadows</i> or its creators.</p>
+        <p>I'm just a regular human Python student that clearly learned everything he knows about web design in the GeoCities era.</p>
+        <p>All copyrights are held by whomever.</p>
+    </footer>
+</body>
+</html>

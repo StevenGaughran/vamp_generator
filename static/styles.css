@@ -1,0 +1,48 @@
+/* font-family: 'Berkshire Swash', cursive;
+    font-family: 'Oswald', sans-serif;*/
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    color: #00FF00;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+h2 {
+    font-size: 63px;
+    text-align: center;
+    color: pink;
+    font-family: 'Berkshire Swash', cursive;
+    }
+
+.vampire_container {
+    background-color: black;
+}
+
+.generator {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+.button-border {
+    text-align: center;
+    padding: 50px;
+}
+
+.refresh_button {
+    background-color: #00FF00;
+    color: black;
+    border-radius: 8px;
+    font-size: 24px;
+    font-family: 'Berkshire Swash', cursive;
+    padding: 24px;
+}
+
+.footer {
+  text-align: center;
+  padding: 3px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
